@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: 61 207 141;
+    --color-primary-dark: 52 184 123;
+  }
+}
+
+.bg-gradient-primary {
+  background: linear-gradient(to right, #3dcf8d, #34b87b);
+}
+
+.hover-gradient-primary:hover {
+  background: linear-gradient(to right, #34b87b, #3dcf8d);
+}
